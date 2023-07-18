@@ -1,0 +1,45 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #6a737c;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .header-name {
+    font-size: 24px;
+    padding-left: 40px;
+  }
+  .header-name img{
+    height: 60px;
+    border: black solid 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  }
+  .header-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .header-links li {
+    margin-left: 20px;
+  }
+  
+  .header-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+  }
+  .header-links li a:hover {
+    color: #ff9800; 
+    text-decoration: none; 
+  }
+.shraddha{
+    padding-right: 5px;
+}

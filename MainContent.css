@@ -1,0 +1,112 @@
+.main-content {
+    padding-top: 80px; /* Add padding to create space for the fixed header */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover; /* Set background image size */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+  }
+  
+  .service-container {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; /* Adding the transition */
+    background-color: white;
+  }
+  
+  .service-container a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .service-container a:hover {
+    text-decoration: none;
+  }
+  
+  .service-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .service-container h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .service-container p {
+    font-size: 16px;
+    color: #555;
+  }
+  /* MainContent.css */
+  .main-content {
+    padding-top: 80px; /* Add padding to create space for the fixed header */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f2f2f2; /* Set background color for MainContent */
+  }
+  
+  .shop-container {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    background-color: #fff; /* Set background color for service container */
+    transition: transform 0.3s ease; /* Add transition for zoom effect */
+  }
+  
+  .shop-image {
+    width: 100%;
+    border-radius: 0; /* Remove rounded corners for sharp edges */
+  }
+  
+  .shop-name {
+    font-size: 36px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .tagline {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  /* Add styles for shop name and tagline position */
+  .shop-name,
+  .tagline {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  
+  /* Add styles for service container hover effect */
+  .service-container:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+    cursor: pointer; /* Show pointer cursor on hover */
+    background-color: #aeb7c0; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+  
+  /* Optional: Add styles for the service container links on hover */
+  .service-container a:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+    color: #007bff;
+  }
+  
+  
+  
