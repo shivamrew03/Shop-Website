@@ -1,10 +1,10 @@
 .main-content {
-    padding-top: 80px; /* Add padding to create space for the fixed header */
+    padding-top: 80px; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-size: cover; /* Set background image size */
-  background-position: center; /* Center the background image */
+    background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   }
   
@@ -16,7 +16,7 @@
     border-radius: 8px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out; /* Adding the transition */
+    transition: transform 0.3s ease-in-out; 
     background-color: white;
   }
   
@@ -46,13 +46,13 @@
     font-size: 16px;
     color: #555;
   }
-  /* MainContent.css */
+
   .main-content {
-    padding-top: 80px; /* Add padding to create space for the fixed header */
+    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #f2f2f2; /* Set background color for MainContent */
+    background-color: #f2f2f2;
   }
   
   .shop-container {
@@ -63,13 +63,13 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
-    background-color: #fff; /* Set background color for service container */
-    transition: transform 0.3s ease; /* Add transition for zoom effect */
+    background-color: #fff;
+    transition: transform 0.3s ease; 
   }
   
   .shop-image {
     width: 100%;
-    border-radius: 0; /* Remove rounded corners for sharp edges */
+    border-radius: 0;
   }
   
   .shop-name {
@@ -83,7 +83,7 @@
     color: #555;
   }
   
-  /* Add styles for shop name and tagline position */
+  
   .shop-name,
   .tagline {
     position: absolute;
@@ -93,18 +93,18 @@
     width: 100%;
   }
   
-  /* Add styles for service container hover effect */
+  
   .service-container:hover {
-    transform: scale(1.1); /* Zoom in by 10% on hover */
-    cursor: pointer; /* Show pointer cursor on hover */
-    background-color: #aeb7c0; /* Change background color on hover */
-    color: #fff; /* Change text color on hover */
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #aeb7c0;
+    color: #fff;
   }
   
   
-  /* Optional: Add styles for the service container links on hover */
+  
   .service-container a:hover {
-    transform: scale(1.05); /* Zoom in effect on hover */
+    transform: scale(1.05);
     color: #007bff;
   }
   
